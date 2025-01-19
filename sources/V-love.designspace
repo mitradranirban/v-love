@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="LOVE" name="Love" minimum="0" maximum="100" default="0">
+      <labels>
+        <label uservalue="0" name="Default" elidable="true"/>
+        <label uservalue="100" name="Full"/>
+      </labels>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="V-love_default.ufo" name="::fontra000-88ecd1fa" familyname="V-Love" stylename="default">
+      <location>
+        <dimension name="Love" xvalue="0"/>
+      </location>
+    </source>
+    <source filename="V-love_FullLove.ufo" name="d7938a72" familyname="V-Love" stylename="FullLove">
+      <location>
+        <dimension name="Love" xvalue="100"/>
+      </location>
+    </source>
+  </sources>
+</designspace>

@@ -1,0 +1,14 @@
+
+
+@GDEF_Simple = [\A \A.0 \A.1 \B \B.0 \B.1 \C \C.0 \C.1 \D \D.0 \D.1 \E \E.0 \E.1 \F \F.0 \F.1 
+	\G \G.0 \G.1 \H \H.0 \H.1 \I \I.0 \I.1 \J \J.0 \J.1 \K \K.0 \K.1 \L \M \N \O \P \Q \R \S \T \U \V 
+	\W \X \Y \Z \beatingHeart \comma \comma.0 \comma.1 \exclam \exclam.0 \exclam.1 
+	\period \period.0 \period.1 \question \question.0 \question.1 \space \L.0 \M.0 
+	\N.0 \O.0 \P.0 \Q.0 \R.0 \S.0 \T.0 \U.0 \V.0 \W.0 \X.0 \Y.0 \Z.0 \L.1 \M.1 \N.1 \O.1 \P.1 
+	\Q.1 \R.1 \S.1 \T.1 \U.1 \V.1 \W.1 \X.1 \Y.1 \Z.1 ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+

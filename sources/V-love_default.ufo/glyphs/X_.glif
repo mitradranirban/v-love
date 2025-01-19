@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="X" format="2">
+  <advance width="750"/>
+  <unicode hex="0058"/>
+  <outline>
+    <contour>
+      <point x="420.414" y="417" type="curve" smooth="yes"/>
+      <point x="420.414" y="548"/>
+      <point x="737.414" y="699"/>
+      <point x="638.414" y="769" type="curve" smooth="yes"/>
+      <point x="572.414" y="817"/>
+      <point x="441.414" y="500"/>
+      <point x="358.414" y="500" type="curve" smooth="yes"/>
+      <point x="271.414" y="500"/>
+      <point x="172.414" y="824"/>
+      <point x="108.414" y="771" type="curve" smooth="yes"/>
+      <point x="21.4142" y="698"/>
+      <point x="269.414" y="530"/>
+      <point x="269.414" y="403" type="curve" smooth="yes"/>
+      <point x="269.414" y="288"/>
+      <point x="-11.5858" y="70"/>
+      <point x="62.4142" y="-3" type="curve" smooth="yes"/>
+      <point x="129.414" y="-68"/>
+      <point x="234.414" y="333"/>
+      <point x="332.414" y="333" type="curve" smooth="yes"/>
+      <point x="420.414" y="333"/>
+      <point x="616.414" y="-66"/>
+      <point x="685.414" y="-11" type="curve" smooth="yes"/>
+      <point x="777.414" y="64"/>
+      <point x="420.414" y="292"/>
+    </contour>
+  </outline>
+</glyph>

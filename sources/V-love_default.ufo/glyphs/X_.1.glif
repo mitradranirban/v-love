@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="X.1" format="2">
+  <advance width="750"/>
+  <outline>
+    <component base="beatingHeart" xOffset="94" yOffset="10"/>
+  </outline>
+</glyph>

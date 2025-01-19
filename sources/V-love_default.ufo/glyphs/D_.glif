@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="D" format="2">
+  <advance width="630"/>
+  <unicode hex="0044"/>
+  <outline>
+    <contour>
+      <point x="580.116" y="364" type="curve" smooth="yes"/>
+      <point x="580.116" y="569"/>
+      <point x="268.116" y="758"/>
+      <point x="143.116" y="758" type="curve" smooth="yes"/>
+      <point x="18.1163" y="758"/>
+      <point x="55.1163" y="593"/>
+      <point x="55.1163" y="388" type="curve" smooth="yes"/>
+      <point x="55.1163" y="182"/>
+      <point x="27.1163" y="13"/>
+      <point x="152.116" y="13" type="curve" smooth="yes"/>
+      <point x="277.116" y="13"/>
+      <point x="580.116" y="158"/>
+    </contour>
+    <contour>
+      <point x="476" y="353" type="curve" smooth="yes"/>
+      <point x="476" y="238.677"/>
+      <point x="365.862" y="146"/>
+      <point x="230" y="146" type="curve" smooth="yes"/>
+      <point x="167.04" y="146"/>
+      <point x="116" y="248.079"/>
+      <point x="116" y="374" type="curve" smooth="yes"/>
+      <point x="116" y="521.46"/>
+      <point x="165.696" y="641"/>
+      <point x="227" y="641" type="curve" smooth="yes"/>
+      <point x="364.519" y="641"/>
+      <point x="476" y="512.058"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict/>
+  </lib>
+</glyph>
