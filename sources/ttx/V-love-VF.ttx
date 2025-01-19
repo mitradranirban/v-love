@@ -89,25 +89,28 @@
     <GlyphID id="83" name="exclam"/>
     <GlyphID id="84" name="exclam.0"/>
     <GlyphID id="85" name="exclam.1"/>
-    <GlyphID id="86" name="period"/>
-    <GlyphID id="87" name="period.0"/>
-    <GlyphID id="88" name="period.1"/>
-    <GlyphID id="89" name="question"/>
-    <GlyphID id="90" name="question.0"/>
-    <GlyphID id="91" name="question.1"/>
-    <GlyphID id="92" name="space"/>
+    <GlyphID id="86" name="hyphen"/>
+    <GlyphID id="87" name="hyphen.0"/>
+    <GlyphID id="88" name="hyphen.1"/>
+    <GlyphID id="89" name="period"/>
+    <GlyphID id="90" name="period.0"/>
+    <GlyphID id="91" name="period.1"/>
+    <GlyphID id="92" name="question"/>
+    <GlyphID id="93" name="question.0"/>
+    <GlyphID id="94" name="question.1"/>
+    <GlyphID id="95" name="space"/>
   </GlyphOrder>
 
   <head>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="1.0"/>
     <fontRevision value="1.0"/>
-    <checkSumAdjustment value="0xa9c1d66a"/>
+    <checkSumAdjustment value="0xbf02276e"/>
     <magicNumber value="0x5f0f3cf5"/>
     <flags value="00000000 00000011"/>
     <unitsPerEm value="1000"/>
     <created value="Fri Jan 17 06:11:33 2025"/>
-    <modified value="Fri Jan 17 14:27:50 2025"/>
+    <modified value="Sun Jan 19 16:06:20 2025"/>
     <xMin value="7"/>
     <yMin value="-250"/>
     <xMax value="1153"/>
@@ -126,7 +129,7 @@
     <lineGap value="0"/>
     <advanceWidthMax value="1218"/>
     <minLeftSideBearing value="7"/>
-    <minRightSideBearing value="-130"/>
+    <minRightSideBearing value="-15"/>
     <xMaxExtent value="1153"/>
     <caretSlopeRise value="1000"/>
     <caretSlopeRun value="0"/>
@@ -142,7 +145,7 @@
   <maxp>
     <!-- Most of this table will be recalculated by the compiler -->
     <tableVersion value="0x10000"/>
-    <numGlyphs value="93"/>
+    <numGlyphs value="96"/>
     <maxPoints value="86"/>
     <maxContours value="3"/>
     <maxCompositePoints value="86"/>
@@ -162,7 +165,7 @@
     <!-- The fields 'usFirstCharIndex' and 'usLastCharIndex'
          will be recalculated by the compiler -->
     <version value="4"/>
-    <xAvgCharWidth value="647"/>
+    <xAvgCharWidth value="603"/>
     <usWeightClass value="400"/>
     <usWidthClass value="5"/>
     <fsType value="00000000 00000000"/>
@@ -293,17 +296,20 @@
     <mtx name="Z.1" width="758" lsb="274"/>
     <mtx name="beatingHeart" width="500" lsb="151"/>
     <mtx name="comma" width="500" lsb="230"/>
-    <mtx name="comma.0" width="166" lsb="230"/>
-    <mtx name="comma.1" width="1163" lsb="151"/>
+    <mtx name="comma.0" width="200" lsb="62"/>
+    <mtx name="comma.1" width="200" lsb="10"/>
     <mtx name="exclam" width="194" lsb="50"/>
-    <mtx name="exclam.0" width="194" lsb="50"/>
-    <mtx name="exclam.1" width="1163" lsb="151"/>
+    <mtx name="exclam.0" width="200" lsb="50"/>
+    <mtx name="exclam.1" width="200" lsb="22"/>
+    <mtx name="hyphen" width="500" lsb="81"/>
+    <mtx name="hyphen.0" width="500" lsb="81"/>
+    <mtx name="hyphen.1" width="500" lsb="151"/>
     <mtx name="period" width="500" lsb="214"/>
-    <mtx name="period.0" width="500" lsb="214"/>
-    <mtx name="period.1" width="1163" lsb="151"/>
+    <mtx name="period.0" width="200" lsb="69"/>
+    <mtx name="period.1" width="200" lsb="9"/>
     <mtx name="question" width="500" lsb="147"/>
     <mtx name="question.0" width="500" lsb="147"/>
-    <mtx name="question.1" width="1163" lsb="151"/>
+    <mtx name="question.1" width="500" lsb="151"/>
     <mtx name="space" width="500" lsb="0"/>
   </hmtx>
 
@@ -313,6 +319,7 @@
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
       <map code="0x2e" name="period"/><!-- FULL STOP -->
       <map code="0x3f" name="question"/><!-- QUESTION MARK -->
       <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
@@ -342,10 +349,11 @@
       <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
       <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
     </cmap_format_4>
-    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="400" language="0" nGroups="32">
+    <cmap_format_12 platformID="0" platEncID="4" format="12" reserved="0" length="412" language="0" nGroups="33">
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
       <map code="0x2e" name="period"/><!-- FULL STOP -->
       <map code="0x3f" name="question"/><!-- QUESTION MARK -->
       <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
@@ -380,6 +388,7 @@
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
       <map code="0x2e" name="period"/><!-- FULL STOP -->
       <map code="0x3f" name="question"/><!-- QUESTION MARK -->
       <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
@@ -409,10 +418,11 @@
       <map code="0x59" name="Y"/><!-- LATIN CAPITAL LETTER Y -->
       <map code="0x5a" name="Z"/><!-- LATIN CAPITAL LETTER Z -->
     </cmap_format_4>
-    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="400" language="0" nGroups="32">
+    <cmap_format_12 platformID="3" platEncID="10" format="12" reserved="0" length="412" language="0" nGroups="33">
       <map code="0x20" name="space"/><!-- SPACE -->
       <map code="0x21" name="exclam"/><!-- EXCLAMATION MARK -->
       <map code="0x2c" name="comma"/><!-- COMMA -->
+      <map code="0x2d" name="hyphen"/><!-- HYPHEN-MINUS -->
       <map code="0x2e" name="period"/><!-- FULL STOP -->
       <map code="0x3f" name="question"/><!-- QUESTION MARK -->
       <map code="0x41" name="A"/><!-- LATIN CAPITAL LETTER A -->
@@ -2272,12 +2282,41 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="comma.0" xMin="230" yMin="-59" xMax="296" yMax="57">
-      <component glyphName="comma" x="0" y="0" flags="0x4"/>
+    <TTGlyph name="comma.0" xMin="62" yMin="-59" xMax="128" yMax="57">
+      <component glyphName="comma" x="-168" y="0" flags="0x4"/>
     </TTGlyph>
 
-    <TTGlyph name="comma.1" xMin="151" yMin="281" xMax="344" yMax="462">
-      <component glyphName="beatingHeart" x="0" y="0" flags="0x4"/>
+    <TTGlyph name="comma.1" xMin="10" yMin="275" xMax="203" yMax="458">
+      <contour>
+        <pt x="203" y="417" on="1"/>
+        <pt x="203" y="404" on="0"/>
+        <pt x="185" y="366" on="0"/>
+        <pt x="159" y="327" on="0"/>
+        <pt x="132" y="294" on="0"/>
+        <pt x="111" y="275" on="0"/>
+        <pt x="109" y="277" on="1"/>
+        <pt x="96" y="288" on="0"/>
+        <pt x="62" y="320" on="0"/>
+        <pt x="30" y="359" on="0"/>
+        <pt x="10" y="397" on="0"/>
+        <pt x="10" y="414" on="1"/>
+        <pt x="10" y="429" on="0"/>
+        <pt x="31" y="450" on="0"/>
+        <pt x="61" y="458" on="0"/>
+        <pt x="75" y="453" on="1"/>
+        <pt x="82" y="451" on="0"/>
+        <pt x="90" y="435" on="0"/>
+        <pt x="100" y="421" on="0"/>
+        <pt x="108" y="421" on="1"/>
+        <pt x="117" y="421" on="0"/>
+        <pt x="124" y="434" on="0"/>
+        <pt x="132" y="449" on="0"/>
+        <pt x="140" y="452" on="1"/>
+        <pt x="153" y="457" on="0"/>
+        <pt x="182" y="450" on="0"/>
+        <pt x="203" y="431" on="0"/>
+      </contour>
+      <instructions/>
     </TTGlyph>
 
     <TTGlyph name="exclam" xMin="50" yMin="-13" xMax="144" yMax="755">
@@ -2319,11 +2358,70 @@
     </TTGlyph>
 
     <TTGlyph name="exclam.0" xMin="50" yMin="-13" xMax="144" yMax="755">
-      <component glyphName="exclam" x="0" y="0" flags="0x204"/>
+      <component glyphName="exclam" x="0" y="0" flags="0x4"/>
     </TTGlyph>
 
-    <TTGlyph name="exclam.1" xMin="151" yMin="281" xMax="344" yMax="462">
-      <component glyphName="beatingHeart" x="0" y="0" flags="0x4"/>
+    <TTGlyph name="exclam.1" xMin="22" yMin="265" xMax="215" yMax="448">
+      <contour>
+        <pt x="215" y="407" on="1"/>
+        <pt x="215" y="394" on="0"/>
+        <pt x="197" y="356" on="0"/>
+        <pt x="171" y="317" on="0"/>
+        <pt x="144" y="284" on="0"/>
+        <pt x="123" y="265" on="0"/>
+        <pt x="121" y="267" on="1"/>
+        <pt x="108" y="278" on="0"/>
+        <pt x="74" y="310" on="0"/>
+        <pt x="42" y="349" on="0"/>
+        <pt x="22" y="387" on="0"/>
+        <pt x="22" y="404" on="1"/>
+        <pt x="22" y="419" on="0"/>
+        <pt x="43" y="440" on="0"/>
+        <pt x="73" y="448" on="0"/>
+        <pt x="87" y="443" on="1"/>
+        <pt x="94" y="441" on="0"/>
+        <pt x="102" y="425" on="0"/>
+        <pt x="112" y="411" on="0"/>
+        <pt x="120" y="411" on="1"/>
+        <pt x="129" y="411" on="0"/>
+        <pt x="136" y="424" on="0"/>
+        <pt x="144" y="439" on="0"/>
+        <pt x="152" y="442" on="1"/>
+        <pt x="165" y="447" on="0"/>
+        <pt x="194" y="440" on="0"/>
+        <pt x="215" y="421" on="0"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="hyphen" xMin="81" yMin="226" xMax="430" yMax="294">
+      <contour>
+        <pt x="430" y="260" on="1"/>
+        <pt x="430" y="251" on="0"/>
+        <pt x="383" y="235" on="0"/>
+        <pt x="304" y="226" on="0"/>
+        <pt x="256" y="226" on="1"/>
+        <pt x="207" y="226" on="0"/>
+        <pt x="128" y="235" on="0"/>
+        <pt x="81" y="251" on="0"/>
+        <pt x="81" y="260" on="1"/>
+        <pt x="81" y="269" on="0"/>
+        <pt x="128" y="285" on="0"/>
+        <pt x="207" y="294" on="0"/>
+        <pt x="256" y="294" on="1"/>
+        <pt x="304" y="294" on="0"/>
+        <pt x="383" y="285" on="0"/>
+        <pt x="430" y="269" on="0"/>
+      </contour>
+      <instructions/>
+    </TTGlyph>
+
+    <TTGlyph name="hyphen.0" xMin="81" yMin="226" xMax="430" yMax="294">
+      <component glyphName="hyphen" x="0" y="0" flags="0x204"/>
+    </TTGlyph>
+
+    <TTGlyph name="hyphen.1" xMin="151" yMin="281" xMax="344" yMax="462">
+      <component glyphName="beatingHeart" x="0" y="0" flags="0x204"/>
     </TTGlyph>
 
     <TTGlyph name="period" xMin="214" yMin="-5" xMax="287" yMax="71">
@@ -2344,12 +2442,41 @@
       <instructions/>
     </TTGlyph>
 
-    <TTGlyph name="period.0" xMin="214" yMin="-5" xMax="287" yMax="71">
-      <component glyphName="period" x="0" y="0" flags="0x204"/>
+    <TTGlyph name="period.0" xMin="69" yMin="-15" xMax="142" yMax="61">
+      <component glyphName="period" x="-145" y="-10" flags="0x4"/>
     </TTGlyph>
 
-    <TTGlyph name="period.1" xMin="151" yMin="281" xMax="344" yMax="462">
-      <component glyphName="beatingHeart" x="0" y="0" flags="0x4"/>
+    <TTGlyph name="period.1" xMin="9" yMin="274" xMax="202" yMax="457">
+      <contour>
+        <pt x="202" y="416" on="1"/>
+        <pt x="202" y="403" on="0"/>
+        <pt x="184" y="365" on="0"/>
+        <pt x="158" y="326" on="0"/>
+        <pt x="131" y="293" on="0"/>
+        <pt x="110" y="274" on="0"/>
+        <pt x="108" y="276" on="1"/>
+        <pt x="95" y="287" on="0"/>
+        <pt x="61" y="319" on="0"/>
+        <pt x="29" y="358" on="0"/>
+        <pt x="9" y="396" on="0"/>
+        <pt x="9" y="413" on="1"/>
+        <pt x="9" y="428" on="0"/>
+        <pt x="30" y="449" on="0"/>
+        <pt x="60" y="457" on="0"/>
+        <pt x="74" y="452" on="1"/>
+        <pt x="81" y="450" on="0"/>
+        <pt x="89" y="434" on="0"/>
+        <pt x="99" y="420" on="0"/>
+        <pt x="107" y="420" on="1"/>
+        <pt x="116" y="420" on="0"/>
+        <pt x="123" y="433" on="0"/>
+        <pt x="131" y="448" on="0"/>
+        <pt x="139" y="451" on="1"/>
+        <pt x="152" y="456" on="0"/>
+        <pt x="181" y="449" on="0"/>
+        <pt x="202" y="430" on="0"/>
+      </contour>
+      <instructions/>
     </TTGlyph>
 
     <TTGlyph name="question" xMin="147" yMin="-28" xMax="412" yMax="760">
@@ -2420,8 +2547,37 @@
       <component glyphName="question" x="0" y="0" flags="0x204"/>
     </TTGlyph>
 
-    <TTGlyph name="question.1" xMin="151" yMin="281" xMax="344" yMax="462">
-      <component glyphName="beatingHeart" x="0" y="0" flags="0x4"/>
+    <TTGlyph name="question.1" xMin="151" yMin="280" xMax="344" yMax="463">
+      <contour>
+        <pt x="344" y="422" on="1"/>
+        <pt x="344" y="409" on="0"/>
+        <pt x="326" y="371" on="0"/>
+        <pt x="300" y="332" on="0"/>
+        <pt x="273" y="299" on="0"/>
+        <pt x="252" y="280" on="0"/>
+        <pt x="250" y="282" on="1"/>
+        <pt x="237" y="293" on="0"/>
+        <pt x="203" y="325" on="0"/>
+        <pt x="171" y="364" on="0"/>
+        <pt x="151" y="402" on="0"/>
+        <pt x="151" y="419" on="1"/>
+        <pt x="151" y="434" on="0"/>
+        <pt x="172" y="455" on="0"/>
+        <pt x="202" y="463" on="0"/>
+        <pt x="216" y="458" on="1"/>
+        <pt x="223" y="456" on="0"/>
+        <pt x="231" y="440" on="0"/>
+        <pt x="241" y="426" on="0"/>
+        <pt x="249" y="426" on="1"/>
+        <pt x="258" y="426" on="0"/>
+        <pt x="265" y="439" on="0"/>
+        <pt x="273" y="454" on="0"/>
+        <pt x="281" y="457" on="1"/>
+        <pt x="294" y="462" on="0"/>
+        <pt x="323" y="455" on="0"/>
+        <pt x="344" y="436" on="0"/>
+      </contour>
+      <instructions/>
     </TTGlyph>
 
     <TTGlyph name="space"/><!-- contains no outline data -->
@@ -2566,6 +2722,8 @@
       <psName name="comma.1"/>
       <psName name="exclam.0"/>
       <psName name="exclam.1"/>
+      <psName name="hyphen.0"/>
+      <psName name="hyphen.1"/>
       <psName name="period.0"/>
       <psName name="period.1"/>
       <psName name="question.0"/>
@@ -2688,119 +2846,123 @@
       </VarRegionList>
       <!-- VarDataCount=1 -->
       <VarData index="0">
-        <!-- ItemCount=13 -->
+        <!-- ItemCount=14 -->
         <NumShorts value="1"/>
         <!-- VarRegionCount=1 -->
         <VarRegionIndex index="0" value="0"/>
         <Item index="0" value="[-334]"/>
         <Item index="1" value="[-100]"/>
         <Item index="2" value="[-43]"/>
-        <Item index="3" value="[-18]"/>
-        <Item index="4" value="[-17]"/>
-        <Item index="5" value="[0]"/>
-        <Item index="6" value="[1]"/>
-        <Item index="7" value="[22]"/>
-        <Item index="8" value="[30]"/>
-        <Item index="9" value="[100]"/>
-        <Item index="10" value="[405]"/>
-        <Item index="11" value="[563]"/>
-        <Item index="12" value="[663]"/>
+        <Item index="3" value="[-34]"/>
+        <Item index="4" value="[-18]"/>
+        <Item index="5" value="[-17]"/>
+        <Item index="6" value="[0]"/>
+        <Item index="7" value="[1]"/>
+        <Item index="8" value="[6]"/>
+        <Item index="9" value="[22]"/>
+        <Item index="10" value="[30]"/>
+        <Item index="11" value="[100]"/>
+        <Item index="12" value="[300]"/>
+        <Item index="13" value="[663]"/>
       </VarData>
     </VarStore>
     <AdvWidthMap>
-      <Map glyph=".notdef" outer="0" inner="5"/>
-      <Map glyph="A" outer="0" inner="5"/>
-      <Map glyph="A.0" outer="0" inner="5"/>
-      <Map glyph="A.1" outer="0" inner="5"/>
-      <Map glyph="B" outer="0" inner="5"/>
-      <Map glyph="B.0" outer="0" inner="5"/>
-      <Map glyph="B.1" outer="0" inner="5"/>
+      <Map glyph=".notdef" outer="0" inner="6"/>
+      <Map glyph="A" outer="0" inner="6"/>
+      <Map glyph="A.0" outer="0" inner="6"/>
+      <Map glyph="A.1" outer="0" inner="6"/>
+      <Map glyph="B" outer="0" inner="6"/>
+      <Map glyph="B.0" outer="0" inner="6"/>
+      <Map glyph="B.1" outer="0" inner="6"/>
       <Map glyph="C" outer="0" inner="2"/>
-      <Map glyph="C.0" outer="0" inner="5"/>
-      <Map glyph="C.1" outer="0" inner="5"/>
-      <Map glyph="D" outer="0" inner="5"/>
-      <Map glyph="D.0" outer="0" inner="5"/>
-      <Map glyph="D.1" outer="0" inner="5"/>
-      <Map glyph="E" outer="0" inner="5"/>
-      <Map glyph="E.0" outer="0" inner="5"/>
-      <Map glyph="E.1" outer="0" inner="5"/>
-      <Map glyph="F" outer="0" inner="5"/>
-      <Map glyph="F.0" outer="0" inner="5"/>
-      <Map glyph="F.1" outer="0" inner="5"/>
-      <Map glyph="G" outer="0" inner="5"/>
-      <Map glyph="G.0" outer="0" inner="5"/>
-      <Map glyph="G.1" outer="0" inner="5"/>
-      <Map glyph="H" outer="0" inner="5"/>
-      <Map glyph="H.0" outer="0" inner="5"/>
-      <Map glyph="H.1" outer="0" inner="5"/>
-      <Map glyph="I" outer="0" inner="5"/>
-      <Map glyph="I.0" outer="0" inner="6"/>
-      <Map glyph="I.1" outer="0" inner="5"/>
-      <Map glyph="J" outer="0" inner="5"/>
-      <Map glyph="J.0" outer="0" inner="5"/>
-      <Map glyph="J.1" outer="0" inner="5"/>
-      <Map glyph="K" outer="0" inner="5"/>
+      <Map glyph="C.0" outer="0" inner="6"/>
+      <Map glyph="C.1" outer="0" inner="6"/>
+      <Map glyph="D" outer="0" inner="6"/>
+      <Map glyph="D.0" outer="0" inner="6"/>
+      <Map glyph="D.1" outer="0" inner="6"/>
+      <Map glyph="E" outer="0" inner="6"/>
+      <Map glyph="E.0" outer="0" inner="6"/>
+      <Map glyph="E.1" outer="0" inner="6"/>
+      <Map glyph="F" outer="0" inner="6"/>
+      <Map glyph="F.0" outer="0" inner="6"/>
+      <Map glyph="F.1" outer="0" inner="6"/>
+      <Map glyph="G" outer="0" inner="6"/>
+      <Map glyph="G.0" outer="0" inner="6"/>
+      <Map glyph="G.1" outer="0" inner="6"/>
+      <Map glyph="H" outer="0" inner="6"/>
+      <Map glyph="H.0" outer="0" inner="6"/>
+      <Map glyph="H.1" outer="0" inner="6"/>
+      <Map glyph="I" outer="0" inner="6"/>
+      <Map glyph="I.0" outer="0" inner="7"/>
+      <Map glyph="I.1" outer="0" inner="6"/>
+      <Map glyph="J" outer="0" inner="6"/>
+      <Map glyph="J.0" outer="0" inner="6"/>
+      <Map glyph="J.1" outer="0" inner="6"/>
+      <Map glyph="K" outer="0" inner="6"/>
       <Map glyph="K.0" outer="0" inner="1"/>
-      <Map glyph="K.1" outer="0" inner="5"/>
-      <Map glyph="L" outer="0" inner="5"/>
-      <Map glyph="L.0" outer="0" inner="5"/>
-      <Map glyph="L.1" outer="0" inner="5"/>
-      <Map glyph="M" outer="0" inner="5"/>
-      <Map glyph="M.0" outer="0" inner="5"/>
-      <Map glyph="M.1" outer="0" inner="5"/>
-      <Map glyph="N" outer="0" inner="9"/>
-      <Map glyph="N.0" outer="0" inner="5"/>
-      <Map glyph="N.1" outer="0" inner="5"/>
-      <Map glyph="O" outer="0" inner="5"/>
-      <Map glyph="O.0" outer="0" inner="5"/>
-      <Map glyph="O.1" outer="0" inner="5"/>
-      <Map glyph="P" outer="0" inner="5"/>
-      <Map glyph="P.0" outer="0" inner="5"/>
-      <Map glyph="P.1" outer="0" inner="5"/>
-      <Map glyph="Q" outer="0" inner="5"/>
-      <Map glyph="Q.0" outer="0" inner="5"/>
-      <Map glyph="Q.1" outer="0" inner="5"/>
-      <Map glyph="R" outer="0" inner="5"/>
-      <Map glyph="R.0" outer="0" inner="5"/>
-      <Map glyph="R.1" outer="0" inner="5"/>
-      <Map glyph="S" outer="0" inner="5"/>
-      <Map glyph="S.0" outer="0" inner="5"/>
-      <Map glyph="S.1" outer="0" inner="5"/>
-      <Map glyph="T" outer="0" inner="8"/>
-      <Map glyph="T.0" outer="0" inner="5"/>
-      <Map glyph="T.1" outer="0" inner="5"/>
-      <Map glyph="U" outer="0" inner="4"/>
-      <Map glyph="U.0" outer="0" inner="5"/>
-      <Map glyph="U.1" outer="0" inner="5"/>
-      <Map glyph="V" outer="0" inner="5"/>
-      <Map glyph="V.0" outer="0" inner="5"/>
-      <Map glyph="V.1" outer="0" inner="5"/>
-      <Map glyph="W" outer="0" inner="3"/>
-      <Map glyph="W.0" outer="0" inner="5"/>
-      <Map glyph="W.1" outer="0" inner="5"/>
-      <Map glyph="X" outer="0" inner="5"/>
-      <Map glyph="X.0" outer="0" inner="5"/>
-      <Map glyph="X.1" outer="0" inner="5"/>
-      <Map glyph="Y" outer="0" inner="7"/>
-      <Map glyph="Y.0" outer="0" inner="5"/>
-      <Map glyph="Y.1" outer="0" inner="11"/>
-      <Map glyph="Z" outer="0" inner="5"/>
-      <Map glyph="Z.0" outer="0" inner="5"/>
-      <Map glyph="Z.1" outer="0" inner="10"/>
-      <Map glyph="beatingHeart" outer="0" inner="12"/>
+      <Map glyph="K.1" outer="0" inner="6"/>
+      <Map glyph="L" outer="0" inner="6"/>
+      <Map glyph="L.0" outer="0" inner="6"/>
+      <Map glyph="L.1" outer="0" inner="6"/>
+      <Map glyph="M" outer="0" inner="6"/>
+      <Map glyph="M.0" outer="0" inner="6"/>
+      <Map glyph="M.1" outer="0" inner="6"/>
+      <Map glyph="N" outer="0" inner="11"/>
+      <Map glyph="N.0" outer="0" inner="6"/>
+      <Map glyph="N.1" outer="0" inner="6"/>
+      <Map glyph="O" outer="0" inner="6"/>
+      <Map glyph="O.0" outer="0" inner="6"/>
+      <Map glyph="O.1" outer="0" inner="6"/>
+      <Map glyph="P" outer="0" inner="6"/>
+      <Map glyph="P.0" outer="0" inner="6"/>
+      <Map glyph="P.1" outer="0" inner="6"/>
+      <Map glyph="Q" outer="0" inner="6"/>
+      <Map glyph="Q.0" outer="0" inner="6"/>
+      <Map glyph="Q.1" outer="0" inner="6"/>
+      <Map glyph="R" outer="0" inner="6"/>
+      <Map glyph="R.0" outer="0" inner="6"/>
+      <Map glyph="R.1" outer="0" inner="6"/>
+      <Map glyph="S" outer="0" inner="6"/>
+      <Map glyph="S.0" outer="0" inner="6"/>
+      <Map glyph="S.1" outer="0" inner="6"/>
+      <Map glyph="T" outer="0" inner="10"/>
+      <Map glyph="T.0" outer="0" inner="6"/>
+      <Map glyph="T.1" outer="0" inner="6"/>
+      <Map glyph="U" outer="0" inner="5"/>
+      <Map glyph="U.0" outer="0" inner="6"/>
+      <Map glyph="U.1" outer="0" inner="6"/>
+      <Map glyph="V" outer="0" inner="6"/>
+      <Map glyph="V.0" outer="0" inner="6"/>
+      <Map glyph="V.1" outer="0" inner="6"/>
+      <Map glyph="W" outer="0" inner="4"/>
+      <Map glyph="W.0" outer="0" inner="6"/>
+      <Map glyph="W.1" outer="0" inner="6"/>
+      <Map glyph="X" outer="0" inner="6"/>
+      <Map glyph="X.0" outer="0" inner="6"/>
+      <Map glyph="X.1" outer="0" inner="6"/>
+      <Map glyph="Y" outer="0" inner="9"/>
+      <Map glyph="Y.0" outer="0" inner="6"/>
+      <Map glyph="Y.1" outer="0" inner="6"/>
+      <Map glyph="Z" outer="0" inner="6"/>
+      <Map glyph="Z.0" outer="0" inner="6"/>
+      <Map glyph="Z.1" outer="0" inner="6"/>
+      <Map glyph="beatingHeart" outer="0" inner="13"/>
       <Map glyph="comma" outer="0" inner="0"/>
-      <Map glyph="comma.0" outer="0" inner="5"/>
-      <Map glyph="comma.1" outer="0" inner="5"/>
-      <Map glyph="exclam" outer="0" inner="5"/>
-      <Map glyph="exclam.0" outer="0" inner="5"/>
-      <Map glyph="exclam.1" outer="0" inner="5"/>
-      <Map glyph="period" outer="0" inner="5"/>
-      <Map glyph="period.0" outer="0" inner="5"/>
-      <Map glyph="period.1" outer="0" inner="5"/>
-      <Map glyph="question" outer="0" inner="5"/>
-      <Map glyph="question.0" outer="0" inner="5"/>
-      <Map glyph="question.1" outer="0" inner="5"/>
-      <Map glyph="space" outer="0" inner="5"/>
+      <Map glyph="comma.0" outer="0" inner="3"/>
+      <Map glyph="comma.1" outer="0" inner="6"/>
+      <Map glyph="exclam" outer="0" inner="8"/>
+      <Map glyph="exclam.0" outer="0" inner="6"/>
+      <Map glyph="exclam.1" outer="0" inner="6"/>
+      <Map glyph="hyphen" outer="0" inner="6"/>
+      <Map glyph="hyphen.0" outer="0" inner="6"/>
+      <Map glyph="hyphen.1" outer="0" inner="6"/>
+      <Map glyph="period" outer="0" inner="6"/>
+      <Map glyph="period.0" outer="0" inner="12"/>
+      <Map glyph="period.1" outer="0" inner="6"/>
+      <Map glyph="question" outer="0" inner="6"/>
+      <Map glyph="question.0" outer="0" inner="6"/>
+      <Map glyph="question.1" outer="0" inner="6"/>
+      <Map glyph="space" outer="0" inner="6"/>
     </AdvWidthMap>
   </HVAR>
 
@@ -4678,9 +4840,9 @@
     <glyphVariations glyph="Y.1">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="-50" y="2"/>
+        <delta pt="0" x="-343" y="63"/>
         <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="563" y="0"/>
+        <delta pt="2" x="0" y="0"/>
         <delta pt="3" x="0" y="0"/>
         <delta pt="4" x="0" y="0"/>
       </tuple>
@@ -4757,9 +4919,9 @@
     <glyphVariations glyph="Z.1">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="-123" y="-8"/>
+        <delta pt="0" x="-388" y="-3"/>
         <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="405" y="0"/>
+        <delta pt="2" x="0" y="0"/>
         <delta pt="3" x="0" y="0"/>
         <delta pt="4" x="0" y="0"/>
       </tuple>
@@ -4822,9 +4984,9 @@
     <glyphVariations glyph="comma.0">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
+        <delta pt="0" x="168" y="0"/>
         <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
+        <delta pt="2" x="-34" y="0"/>
         <delta pt="3" x="0" y="0"/>
         <delta pt="4" x="0" y="0"/>
       </tuple>
@@ -4832,48 +4994,61 @@
     <glyphVariations glyph="comma.1">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
+        <delta pt="2" x="18" y="-27"/>
+        <delta pt="3" x="7" y="-38"/>
+        <delta pt="4" x="-5" y="-46"/>
+        <delta pt="6" x="-14" y="-51"/>
+        <delta pt="7" x="-21" y="-48"/>
+        <delta pt="8" x="-35" y="-39"/>
+        <delta pt="9" x="-48" y="-30"/>
+        <delta pt="10" x="-56" y="-19"/>
+        <delta pt="13" x="-48" y="-6"/>
+        <delta pt="14" x="-35" y="-4"/>
+        <delta pt="17" x="-22" y="-10"/>
+        <delta pt="18" x="-19" y="-13"/>
+        <delta pt="21" x="-8" y="-10"/>
+        <delta pt="22" x="-6" y="-6"/>
+        <delta pt="23" x="-1" y="-5"/>
+        <delta pt="24" x="3" y="-5"/>
+        <delta pt="25" x="16" y="-6"/>
+        <delta pt="26" x="25" y="-11"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="exclam">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="31" y="-4"/>
-        <delta pt="1" x="31" y="-4"/>
-        <delta pt="2" x="15" y="-2"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
-        <delta pt="5" x="1" y="0"/>
-        <delta pt="6" x="-14" y="-2"/>
-        <delta pt="7" x="-32" y="-2"/>
-        <delta pt="8" x="-46" y="-3"/>
-        <delta pt="9" x="-46" y="-4"/>
-        <delta pt="10" x="-46" y="-4"/>
-        <delta pt="11" x="-32" y="-3"/>
-        <delta pt="12" x="-14" y="-1"/>
-        <delta pt="13" x="1" y="0"/>
-        <delta pt="14" x="0" y="0"/>
-        <delta pt="15" x="0" y="0"/>
-        <delta pt="16" x="15" y="-2"/>
-        <delta pt="17" x="31" y="-4"/>
-        <delta pt="18" x="0" y="0"/>
-        <delta pt="19" x="0" y="0"/>
-        <delta pt="20" x="1" y="0"/>
-        <delta pt="21" x="0" y="0"/>
-        <delta pt="22" x="0" y="0"/>
-        <delta pt="23" x="0" y="0"/>
-        <delta pt="24" x="0" y="0"/>
-        <delta pt="25" x="0" y="0"/>
-        <delta pt="26" x="0" y="0"/>
-        <delta pt="27" x="0" y="0"/>
-        <delta pt="28" x="1" y="0"/>
-        <delta pt="29" x="0" y="0"/>
+        <delta pt="0" x="40" y="-4"/>
+        <delta pt="1" x="40" y="-4"/>
+        <delta pt="2" x="24" y="-2"/>
+        <delta pt="3" x="9" y="0"/>
+        <delta pt="4" x="9" y="0"/>
+        <delta pt="5" x="10" y="0"/>
+        <delta pt="6" x="-5" y="-2"/>
+        <delta pt="7" x="-23" y="-2"/>
+        <delta pt="8" x="-37" y="-3"/>
+        <delta pt="9" x="-37" y="-4"/>
+        <delta pt="10" x="-37" y="-4"/>
+        <delta pt="11" x="-23" y="-3"/>
+        <delta pt="12" x="-5" y="-1"/>
+        <delta pt="13" x="10" y="0"/>
+        <delta pt="14" x="9" y="0"/>
+        <delta pt="15" x="9" y="0"/>
+        <delta pt="16" x="24" y="-2"/>
+        <delta pt="17" x="40" y="-4"/>
+        <delta pt="18" x="9" y="0"/>
+        <delta pt="19" x="9" y="0"/>
+        <delta pt="20" x="10" y="0"/>
+        <delta pt="21" x="9" y="0"/>
+        <delta pt="22" x="9" y="0"/>
+        <delta pt="23" x="9" y="0"/>
+        <delta pt="24" x="9" y="0"/>
+        <delta pt="25" x="9" y="0"/>
+        <delta pt="26" x="9" y="0"/>
+        <delta pt="27" x="9" y="0"/>
+        <delta pt="28" x="10" y="0"/>
+        <delta pt="29" x="9" y="0"/>
         <delta pt="30" x="0" y="0"/>
-        <delta pt="31" x="0" y="0"/>
+        <delta pt="31" x="6" y="0"/>
         <delta pt="32" x="0" y="0"/>
         <delta pt="33" x="0" y="0"/>
       </tuple>
@@ -4891,7 +5066,65 @@
     <glyphVariations glyph="exclam.1">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
+        <delta pt="2" x="15" y="24"/>
+        <delta pt="3" x="4" y="13"/>
+        <delta pt="4" x="-8" y="5"/>
+        <delta pt="6" x="-17" y="0"/>
+        <delta pt="7" x="-24" y="3"/>
+        <delta pt="8" x="-38" y="12"/>
+        <delta pt="9" x="-51" y="21"/>
+        <delta pt="10" x="-59" y="32"/>
+        <delta pt="13" x="-51" y="45"/>
+        <delta pt="14" x="-38" y="47"/>
+        <delta pt="17" x="-25" y="41"/>
+        <delta pt="18" x="-22" y="38"/>
+        <delta pt="21" x="-11" y="41"/>
+        <delta pt="22" x="-9" y="45"/>
+        <delta pt="23" x="-4" y="46"/>
+        <delta pt="24" x="0" y="46"/>
+        <delta pt="25" x="13" y="45"/>
+        <delta pt="26" x="22" y="40"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="hyphen">
+      <tuple>
+        <coord axis="LOVE" value="1.0"/>
         <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="1" y="-16"/>
+        <delta pt="3" x="2" y="-32"/>
+        <delta pt="4" x="2" y="-32"/>
+        <delta pt="5" x="3" y="-32"/>
+        <delta pt="6" x="1" y="-16"/>
+        <delta pt="7" x="0" y="0"/>
+        <delta pt="8" x="0" y="0"/>
+        <delta pt="9" x="0" y="1"/>
+        <delta pt="10" x="-3" y="19"/>
+        <delta pt="11" x="-5" y="39"/>
+        <delta pt="12" x="-6" y="39"/>
+        <delta pt="13" x="-6" y="39"/>
+        <delta pt="14" x="-3" y="19"/>
+        <delta pt="15" x="0" y="1"/>
+        <delta pt="16" x="0" y="0"/>
+        <delta pt="17" x="0" y="0"/>
+        <delta pt="18" x="0" y="0"/>
+        <delta pt="19" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="hyphen.0">
+      <tuple>
+        <coord axis="LOVE" value="1.0"/>
+        <delta pt="0" x="0" y="0"/>
+        <delta pt="1" x="0" y="0"/>
+        <delta pt="2" x="0" y="0"/>
+        <delta pt="3" x="0" y="0"/>
+        <delta pt="4" x="0" y="0"/>
+      </tuple>
+    </glyphVariations>
+    <glyphVariations glyph="hyphen.1">
+      <tuple>
+        <coord axis="LOVE" value="1.0"/>
+        <delta pt="0" x="-348" y="23"/>
         <delta pt="1" x="0" y="0"/>
         <delta pt="2" x="0" y="0"/>
         <delta pt="3" x="0" y="0"/>
@@ -4910,9 +5143,9 @@
     <glyphVariations glyph="period.0">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
+        <delta pt="0" x="145" y="10"/>
         <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
+        <delta pt="2" x="300" y="0"/>
         <delta pt="3" x="0" y="0"/>
         <delta pt="4" x="0" y="0"/>
       </tuple>
@@ -4920,11 +5153,24 @@
     <glyphVariations glyph="period.1">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
+        <delta pt="2" x="30" y="-18"/>
+        <delta pt="3" x="19" y="-29"/>
+        <delta pt="4" x="7" y="-37"/>
+        <delta pt="6" x="-2" y="-42"/>
+        <delta pt="7" x="-9" y="-39"/>
+        <delta pt="8" x="-23" y="-30"/>
+        <delta pt="9" x="-36" y="-21"/>
+        <delta pt="10" x="-44" y="-10"/>
+        <delta pt="13" x="-36" y="3"/>
+        <delta pt="14" x="-23" y="5"/>
+        <delta pt="17" x="-10" y="-1"/>
+        <delta pt="18" x="-7" y="-4"/>
+        <delta pt="21" x="4" y="-1"/>
+        <delta pt="22" x="6" y="3"/>
+        <delta pt="23" x="11" y="4"/>
+        <delta pt="24" x="15" y="4"/>
+        <delta pt="25" x="28" y="3"/>
+        <delta pt="26" x="37" y="-2"/>
       </tuple>
     </glyphVariations>
     <glyphVariations glyph="question">
@@ -5005,22 +5251,27 @@
     <glyphVariations glyph="question.1">
       <tuple>
         <coord axis="LOVE" value="1.0"/>
-        <delta pt="0" x="0" y="0"/>
-        <delta pt="1" x="0" y="0"/>
-        <delta pt="2" x="0" y="0"/>
-        <delta pt="3" x="0" y="0"/>
-        <delta pt="4" x="0" y="0"/>
+        <delta pt="2" x="36" y="-4"/>
+        <delta pt="3" x="25" y="-15"/>
+        <delta pt="4" x="13" y="-23"/>
+        <delta pt="6" x="4" y="-28"/>
+        <delta pt="7" x="-3" y="-25"/>
+        <delta pt="8" x="-17" y="-16"/>
+        <delta pt="9" x="-30" y="-7"/>
+        <delta pt="10" x="-38" y="4"/>
+        <delta pt="13" x="-30" y="17"/>
+        <delta pt="14" x="-17" y="19"/>
+        <delta pt="17" x="-4" y="13"/>
+        <delta pt="18" x="-1" y="10"/>
+        <delta pt="21" x="10" y="13"/>
+        <delta pt="22" x="12" y="17"/>
+        <delta pt="23" x="17" y="18"/>
+        <delta pt="24" x="21" y="18"/>
+        <delta pt="25" x="34" y="17"/>
+        <delta pt="26" x="43" y="12"/>
       </tuple>
     </glyphVariations>
   </gvar>
-  <CPAL>
-    <version value="0"/>
-    <numPaletteEntries value="2"/>
-    <palette index="0">
-      <color index="0" value="#00B5E2FF"/>
-      <color index="1" value="#9D2235AA"/>
-    </palette>  
-  </CPAL>
   <COLR>
     <version value="0"/>
     <ColorGlyph name="exclam">
@@ -5028,12 +5279,16 @@
       <layer colorID="1" name="exclam.1"/>
     </ColorGlyph>
     <ColorGlyph name="comma">
-      <layer colorID="1" name="comma.0"/>
-      <layer colorID="0" name="comma.1"/>
+      <layer colorID="0" name="comma.0"/>
+      <layer colorID="1" name="comma.1"/>
     </ColorGlyph>
     <ColorGlyph name="period">
       <layer colorID="0" name="period.0"/>
       <layer colorID="1" name="period.1"/>
+    </ColorGlyph>
+    <ColorGlyph name="hyphen">
+      <layer colorID="0" name="hyphen.0"/>
+      <layer colorID="1" name="hyphen.1"/>
     </ColorGlyph>
     <ColorGlyph name="question">
       <layer colorID="0" name="question.0"/>
@@ -5144,6 +5399,13 @@
       <layer colorID="1" name="Z.1"/>
     </ColorGlyph>
   </COLR>
-
+ <CPAL>
+    <version value="0"/>
+    <numPaletteEntries value="2"/>
+    <palette index="0">
+      <color index="0" value="#00B5E2FF"/>
+      <color index="1" value="#9D2235AA"/>
+    </palette>  
+  </CPAL>
 
 </ttFont>

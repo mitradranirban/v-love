@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hyphen.0" format="2">
+  <advance width="500"/>
+  <outline>
+    <component base="hyphen"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>xyz.fontra.layer-names</key>
+      <dict>
+        <key>V-love_FullLove/public.default</key>
+        <string>Love=100</string>
+        <key>V-love_default/public.default</key>
+        <string>default</string>
+      </dict>
+      <key>xyz.fontra.source-names</key>
+      <dict>
+        <key>FullLove</key>
+        <string>Love=100</string>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

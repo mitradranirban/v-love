@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<glyph name="period.0" format="2">
+<glyph name="hyphen.0" format="2">
   <advance width="500"/>
   <outline>
-    <component base="period"/>
+    <component base="hyphen"/>
   </outline>
 </glyph>

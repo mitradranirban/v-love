@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
     <key>A</key>
@@ -70,34 +70,94 @@
     <string>K_.1.glif</string>
     <key>L</key>
     <string>L_.glif</string>
+    <key>L.0</key>
+    <string>L_.0.glif</string>
+    <key>L.1</key>
+    <string>L_.1.glif</string>
     <key>M</key>
     <string>M_.glif</string>
+    <key>M.0</key>
+    <string>M_.0.glif</string>
+    <key>M.1</key>
+    <string>M_.1.glif</string>
     <key>N</key>
     <string>N_.glif</string>
+    <key>N.0</key>
+    <string>N_.0.glif</string>
+    <key>N.1</key>
+    <string>N_.1.glif</string>
     <key>O</key>
     <string>O_.glif</string>
+    <key>O.0</key>
+    <string>O_.0.glif</string>
+    <key>O.1</key>
+    <string>O_.1.glif</string>
     <key>P</key>
     <string>P_.glif</string>
+    <key>P.0</key>
+    <string>P_.0.glif</string>
+    <key>P.1</key>
+    <string>P_.1.glif</string>
     <key>Q</key>
     <string>Q_.glif</string>
+    <key>Q.0</key>
+    <string>Q_.0.glif</string>
+    <key>Q.1</key>
+    <string>Q_.1.glif</string>
     <key>R</key>
     <string>R_.glif</string>
+    <key>R.0</key>
+    <string>R_.0.glif</string>
+    <key>R.1</key>
+    <string>R_.1.glif</string>
     <key>S</key>
     <string>S_.glif</string>
+    <key>S.0</key>
+    <string>S_.0.glif</string>
+    <key>S.1</key>
+    <string>S_.1.glif</string>
     <key>T</key>
     <string>T_.glif</string>
+    <key>T.0</key>
+    <string>T_.0.glif</string>
+    <key>T.1</key>
+    <string>T_.1.glif</string>
     <key>U</key>
     <string>U_.glif</string>
+    <key>U.0</key>
+    <string>U_.0.glif</string>
+    <key>U.1</key>
+    <string>U_.1.glif</string>
     <key>V</key>
     <string>V_.glif</string>
+    <key>V.0</key>
+    <string>V_.0.glif</string>
+    <key>V.1</key>
+    <string>V_.1.glif</string>
     <key>W</key>
     <string>W_.glif</string>
+    <key>W.0</key>
+    <string>W_.0.glif</string>
+    <key>W.1</key>
+    <string>W_.1.glif</string>
     <key>X</key>
     <string>X_.glif</string>
+    <key>X.0</key>
+    <string>X_.0.glif</string>
+    <key>X.1</key>
+    <string>X_.1.glif</string>
     <key>Y</key>
     <string>Y_.glif</string>
+    <key>Y.0</key>
+    <string>Y_.0.glif</string>
+    <key>Y.1</key>
+    <string>Y_.1.glif</string>
     <key>Z</key>
     <string>Z_.glif</string>
+    <key>Z.0</key>
+    <string>Z_.0.glif</string>
+    <key>Z.1</key>
+    <string>Z_.1.glif</string>
     <key>beatingHeart</key>
     <string>beatingH_eart.glif</string>
     <key>comma</key>
@@ -112,6 +172,12 @@
     <string>exclam.0.glif</string>
     <key>exclam.1</key>
     <string>exclam.1.glif</string>
+    <key>hyphen</key>
+    <string>hyphen.glif</string>
+    <key>hyphen.0</key>
+    <string>hyphen.0.glif</string>
+    <key>hyphen.1</key>
+    <string>hyphen.1.glif</string>
     <key>period</key>
     <string>period.glif</string>
     <key>period.0</key>
@@ -126,65 +192,5 @@
     <string>question.1.glif</string>
     <key>space</key>
     <string>space.glif</string>
-    <key>L.0</key>
-    <string>L_.0.glif</string>
-    <key>M.0</key>
-    <string>M_.0.glif</string>
-    <key>N.0</key>
-    <string>N_.0.glif</string>
-    <key>O.0</key>
-    <string>O_.0.glif</string>
-    <key>P.0</key>
-    <string>P_.0.glif</string>
-    <key>Q.0</key>
-    <string>Q_.0.glif</string>
-    <key>R.0</key>
-    <string>R_.0.glif</string>
-    <key>S.0</key>
-    <string>S_.0.glif</string>
-    <key>T.0</key>
-    <string>T_.0.glif</string>
-    <key>U.0</key>
-    <string>U_.0.glif</string>
-    <key>V.0</key>
-    <string>V_.0.glif</string>
-    <key>W.0</key>
-    <string>W_.0.glif</string>
-    <key>X.0</key>
-    <string>X_.0.glif</string>
-    <key>Y.0</key>
-    <string>Y_.0.glif</string>
-    <key>Z.0</key>
-    <string>Z_.0.glif</string>
-    <key>L.1</key>
-    <string>L_.1.glif</string>
-    <key>M.1</key>
-    <string>M_.1.glif</string>
-    <key>N.1</key>
-    <string>N_.1.glif</string>
-    <key>O.1</key>
-    <string>O_.1.glif</string>
-    <key>P.1</key>
-    <string>P_.1.glif</string>
-    <key>Q.1</key>
-    <string>Q_.1.glif</string>
-    <key>R.1</key>
-    <string>R_.1.glif</string>
-    <key>S.1</key>
-    <string>S_.1.glif</string>
-    <key>T.1</key>
-    <string>T_.1.glif</string>
-    <key>U.1</key>
-    <string>U_.1.glif</string>
-    <key>V.1</key>
-    <string>V_.1.glif</string>
-    <key>W.1</key>
-    <string>W_.1.glif</string>
-    <key>X.1</key>
-    <string>X_.1.glif</string>
-    <key>Y.1</key>
-    <string>Y_.1.glif</string>
-    <key>Z.1</key>
-    <string>Z_.1.glif</string>
   </dict>
 </plist>

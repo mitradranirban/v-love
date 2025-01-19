@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="Y.1" format="2">
-  <advance width="1163"/>
+  <advance width="600"/>
   <outline>
-    <component base="beatingHeart"/>
+    <component base="beatingHeart" xOffset="-293" yOffset="61"/>
   </outline>
 </glyph>

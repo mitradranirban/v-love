@@ -15,6 +15,10 @@
       <layer colorID="0" name="period.0"/>
       <layer colorID="1" name="period.1"/>
     </ColorGlyph>
+    <ColorGlyph name="hyphen">
+      <layer colorID="0" name="hyphen.0"/>
+      <layer colorID="1" name="hyphen.1"/>
+    </ColorGlyph>
     <ColorGlyph name="question">
       <layer colorID="0" name="question.0"/>
       <layer colorID="1" name="question.1"/>
